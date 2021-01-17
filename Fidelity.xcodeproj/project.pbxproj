@@ -15,6 +15,11 @@
 		3AAFFFA725B3D2C900D317F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAFFFA525B3D2C900D317F3 /* LaunchScreen.storyboard */; };
 		3AAFFFB225B3D2C900D317F3 /* FidelityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFFFB125B3D2C900D317F3 /* FidelityTests.swift */; };
 		3AAFFFBD25B3D2C900D317F3 /* FidelityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFFFBC25B3D2C900D317F3 /* FidelityUITests.swift */; };
+		3AAFFFCE25B3D2D800D317F3 /* AnimeTableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFFFCD25B3D2D800D317F3 /* AnimeTableViewHandler.swift */; };
+		3AAFFFD325B3D2F000D317F3 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFFFD225B3D2F000D317F3 /* Anime.swift */; };
+		3AAFFFD825B3D2F600D317F3 /* AnimeAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFFFD725B3D2F600D317F3 /* AnimeAPIHandler.swift */; };
+		3AAFFFDD25B3D53300D317F3 /* AnimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFFFDC25B3D53300D317F3 /* AnimeTableViewCell.swift */; };
+		3AAFFFE225B4B9A600D317F3 /* AnimeResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFFFE125B4B9A600D317F3 /* AnimeResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		3AAFFFB825B3D2C900D317F3 /* FidelityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidelityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAFFFBC25B3D2C900D317F3 /* FidelityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidelityUITests.swift; sourceTree = "<group>"; };
 		3AAFFFBE25B3D2C900D317F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AAFFFCD25B3D2D800D317F3 /* AnimeTableViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeTableViewHandler.swift; sourceTree = "<group>"; };
+		3AAFFFD225B3D2F000D317F3 /* Anime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		3AAFFFD725B3D2F600D317F3 /* AnimeAPIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeAPIHandler.swift; sourceTree = "<group>"; };
+		3AAFFFDC25B3D53300D317F3 /* AnimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeTableViewCell.swift; sourceTree = "<group>"; };
+		3AAFFFE125B4B9A600D317F3 /* AnimeResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +112,12 @@
 				3AAFFF9A25B3D2C400D317F3 /* AppDelegate.swift */,
 				3AAFFF9C25B3D2C400D317F3 /* SceneDelegate.swift */,
 				3AAFFF9E25B3D2C400D317F3 /* ViewController.swift */,
+				3AAFFFD225B3D2F000D317F3 /* Anime.swift */,
+				3AAFFFE125B4B9A600D317F3 /* AnimeResults.swift */,
 				3AAFFFA025B3D2C400D317F3 /* Main.storyboard */,
+				3AAFFFCD25B3D2D800D317F3 /* AnimeTableViewHandler.swift */,
+				3AAFFFDC25B3D53300D317F3 /* AnimeTableViewCell.swift */,
+				3AAFFFD725B3D2F600D317F3 /* AnimeAPIHandler.swift */,
 				3AAFFFA325B3D2C900D317F3 /* Assets.xcassets */,
 				3AAFFFA525B3D2C900D317F3 /* LaunchScreen.storyboard */,
 				3AAFFFA825B3D2C900D317F3 /* Info.plist */,
@@ -258,7 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAFFFD825B3D2F600D317F3 /* AnimeAPIHandler.swift in Sources */,
+				3AAFFFE225B4B9A600D317F3 /* AnimeResults.swift in Sources */,
 				3AAFFF9F25B3D2C400D317F3 /* ViewController.swift in Sources */,
+				3AAFFFD325B3D2F000D317F3 /* Anime.swift in Sources */,
+				3AAFFFCE25B3D2D800D317F3 /* AnimeTableViewHandler.swift in Sources */,
+				3AAFFFDD25B3D53300D317F3 /* AnimeTableViewCell.swift in Sources */,
 				3AAFFF9B25B3D2C400D317F3 /* AppDelegate.swift in Sources */,
 				3AAFFF9D25B3D2C400D317F3 /* SceneDelegate.swift in Sources */,
 			);
